@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-image: url('mclarenfundo.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    min-height: 115vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.dropdown-menu{
+    border-radius:20px 0px 20px 0px;
+    background-color: black;
+    color: white;
+}
+.dropdown-menu li a:hover{
+    border-radius:20px 0px 20px 0px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+
+.card{
+    border-radius:50px 0px 50px 0px;
+    background-color: black;
+
+
+}
+
+th{
+    border:none;
+    color:#595c61;
+    padding:20px;
+    font-size:30px;
+
+}
+
+tr{
+    color:#595c61;
+
+}
+
+td{
+    font-size:30px;
+    color:#595c61 !important;
+    border:none;
+}
+
+.dropdown-menu li a{
+    color:white;
+}
+
+
+.text-small{
+    font-size:20px;
+    color:#595c61;
+}
+
+.text-big{
+    color:#595c61;
+    font-size:80px;
+    font-weight: 100;
+}
